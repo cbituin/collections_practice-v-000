@@ -58,6 +58,8 @@ def add_s(array)
   array.each_with_index.collect do |string, index|
     if index != 1 
       string.gsub(/\z/, "s")
+    else
+      string
     end
   end
 end
