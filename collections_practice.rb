@@ -47,4 +47,3 @@ def find_a(array)
     end
   end
 end
-end
