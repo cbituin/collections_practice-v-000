@@ -50,4 +50,6 @@ def find_a(array)
   newArray
 end
 
-def sum_array()
+def sum_array(array)
+  
+end
