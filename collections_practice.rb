@@ -60,5 +60,4 @@ def add_s(array)
       string.gsub(/\z/, "s")
     end
   end
-  array
 end
