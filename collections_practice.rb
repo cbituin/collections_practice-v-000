@@ -41,9 +41,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  newArray = []
   array.collect! do |string|
     if string.start_with?("a")
-      string
+      newArray << string
     end
   end
+  newArray
 end
