@@ -59,6 +59,8 @@ def add_s(array)
     if index != 1 
       string << "s"
       array << string
+    else
+      array << string
     end
   end
   array
