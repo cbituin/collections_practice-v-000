@@ -36,7 +36,7 @@ def kesha_maker(array)
     # string.insert(2, "$")
    newString = string.chars
    newString[2] = "$"
-   newString
+   newString.join
   end
   array
 end
